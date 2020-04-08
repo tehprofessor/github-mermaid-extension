@@ -58,8 +58,10 @@ function *idGenerator() {
  */
 function render(code, target, id) {
   mermaidAPI.render(id, code, (svgCode, bindFunctions) => {
-    target.innerHTML = svgCode
-    bindFunctions(target)
+    target.innerHTML = svgCode;
+    if (bindFunctions) {
+      bindFunctions(target);
+    }
   }, target)
 }
 
