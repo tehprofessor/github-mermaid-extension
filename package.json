@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
-    "mermaid": "^8.4.8"
+    "mermaid": "^8.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
